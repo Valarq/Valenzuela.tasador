@@ -1,0 +1,84 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de tu página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título de la Página</h1>
+    </header>
+
+    <nav>
+        <a href="#acerca">Acerca de</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="acerca">
+        <h2>Acerca de Nosotros</h2>
+        <p>Texto informativo sobre tu empresa o proyecto.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Servicio 1</li>
+            <li>Servicio 2</li>
+            <li>Servicio 3</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Información de contacto, formulario, o enlaces relevantes.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Empresa</p>
+    </footer>
+</body>
+</html>
+```
